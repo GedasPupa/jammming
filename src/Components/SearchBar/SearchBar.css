@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 6.94rem;
-  margin-bottom: 6.33rem;
+  padding-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .SearchBar input {
@@ -23,7 +23,7 @@
 
 .SearchButton {
   cursor: pointer;
-  width: 8.11rem;
+  width: 10rem;
   padding: .77rem 0;
   border-radius: 54px;
   background-color: #010c3f;
@@ -34,7 +34,27 @@
   color: #fff;
   font-weight: 500;
 }
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 1rem;
+}
 
+.s {
+  margin-top: 1rem;
+
+  /* display: flex;  */
+  /* flex-direction: column; */
+  /* align-content: space-around; */
+}
 .SearchButton:hover {
   background-color: rgba(108, 65, 233, .7);
+}
+
+@media only screen and (max-width: 770px) {
+  .buttons {
+    align-items: center;
+    flex-direction: column;
+  }
 }

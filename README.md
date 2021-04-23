@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# React App. Creates, modifies and unfollows playlist in Spotify.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Deployed: [Jammming - 1st version](http://create-new-playlist.surge.sh/)
+Deployed: [Jammming - 2nd version](http://jammming-modify-playlists.surge.sh/)
 
 ## Available Scripts
 
