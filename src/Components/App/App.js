@@ -13,23 +13,9 @@ class App extends React.Component {
 
     this.state = {
       searchResults: [],
-      // [
-      //   {name: 'lialia', artist: 'tom', album: 'param', id: 1, uri: 444},
-      //   {name: 'tratata', artist: 'jon', album: 'tatam', id: 2, uri: 666},
-      //   {name: 'tototoo', artist: 'paul', album: 'dundum', id: 3, uri: 555}  
-      // ],
       playlistName: 'New playlist',
       playlistTracks: [],
-      // [
-      //   {name: 'lll', artist: 'tom1', album: 'param1', id: 4, uri: 111},
-      //   {name: 'jjj', artist: 'jon1', album: 'taram1', id: 5, uri: 222},
-      //   {name: 'ppp', artist: 'paul1', album: 'dundun1', id: 6, uri: 333}
-      // ],
-      // savedURIs: null,
-      playlists: [
-          {name: 'playlist 1', id: 1},
-          {name: 'playlist 2', id: 2}
-      ],
+      playlists: [],
       selectedPlaylist: null,
     };
     this.addTrack = this.addTrack.bind(this);
